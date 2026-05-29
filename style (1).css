@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+}
+
+body {
+    background-color: #ffffff;
+    color: black;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d4eaff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 3.8em;
+    margin-bottom: 10px;
+    color: #2E8B57;
+    font-family: Bahnschrift;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 1.3em;
+    font-family: Bahnschrift;
+}
+
+nav ul li a:hover {
+    color: #2E8B57;
+}
+
+main {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: #d4eaff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #2E8B57;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-family: Bahnschrift;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-family: Bahnschrift;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 25px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+ul li {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: Bahnschrift;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Bahnschrift;
+}
