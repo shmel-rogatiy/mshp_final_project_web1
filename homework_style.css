@@ -122,3 +122,23 @@ footer {
     text-align: center;
     font-family: Bahnschrift;
 }
+
+.bee-gif {
+    display: none;
+    margin-top: 10px;
+    max-width: 100px;
+    transition: none;
+}
+
+.bee-tr:active + .bee-gif {
+    display: inline-block;
+}
+
+.bee-tr {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+.bee-tr:hover {
+    transform: scale(1.2);
+}
